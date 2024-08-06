@@ -38,19 +38,6 @@ An online test management system where admins can create tests and users can att
     ```bash
     pytest
     ```
-
-## Docker
-
-1. **Build Docker image**
-    ```bash
-    docker build -t online_test_management .
-    ```
-
-2. **Run Docker container**
-    ```bash
-    docker run -d -p 8000:8000 online_test_management
-    ```
-
 ## API Endpoints
 
 ### Auth
